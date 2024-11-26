@@ -17,8 +17,6 @@ library TypeCasts {
     }
 }
 
-// File: smartscout.cash/0xA7C9C2D79e9FB4FB3c16b7E85ed9336082EC9980/contracts/libs/Message.sol
-
 
 pragma solidity >=0.8.0;
 
@@ -171,8 +169,6 @@ library Message {
         return bytes(_message[BODY_OFFSET:]);
     }
 }
-
-// File: smartscout.cash/0xA7C9C2D79e9FB4FB3c16b7E85ed9336082EC9980/contracts/hooks/libs/StandardHookMetadata.sol
 
 
 pragma solidity >=0.8.0;
@@ -343,8 +339,6 @@ library StandardHookMetadata {
     }
 }
 
-// File: smartscout.cash/0xA7C9C2D79e9FB4FB3c16b7E85ed9336082EC9980/contracts/interfaces/hooks/IPostDispatchHook.sol
-
 
 pragma solidity >=0.8.0;
 
@@ -413,8 +407,6 @@ interface IPostDispatchHook {
     ) external view returns (uint256);
 }
 
-// File: smartscout.cash/0xA7C9C2D79e9FB4FB3c16b7E85ed9336082EC9980/contracts/PackageVersioned.sol
-
 
 pragma solidity >=0.6.11;
 
@@ -426,8 +418,6 @@ abstract contract PackageVersioned {
     // GENERATED CODE - DO NOT EDIT
     string public constant PACKAGE_VERSION = "5.7.1";
 }
-
-// File: smartscout.cash/0xA7C9C2D79e9FB4FB3c16b7E85ed9336082EC9980/contracts/hooks/libs/AbstractPostDispatchHook.sol
 
 
 pragma solidity >=0.8.0;
@@ -839,8 +829,6 @@ abstract contract Ownable is Context {
         emit OwnershipTransferred(oldOwner, newOwner);
     }
 }
-
-// File: smartscout.cash/0xA7C9C2D79e9FB4FB3c16b7E85ed9336082EC9980/contracts/hooks/ProtocolFee.sol
 
 
 pragma solidity >=0.8.0;
